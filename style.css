@@ -1,0 +1,78 @@
+/* ---------- 1. Aspectos gerais ---------- */
+
+/* Corpo da página */
+body {
+  max-width: 1000px;        /* Tamanho fixo da página */
+  margin: 0 auto;           /* Centralizar a página no navegador */
+  font-family: sans-serif; /* Fonte sem serifa para todo o texto */
+  background-color: #f4f4f4; /* Cor de fundo leve (opcional) */
+  color: #333;              /* Cor do texto */
+}
+
+/* Indentação dos parágrafos */
+p {
+  text-indent: 1em;
+}
+
+
+/* ---------- 2. Títulos ---------- */
+
+/* Centraliza todos os títulos */
+h1, h2, h3 {
+  text-align: center; /* Altere para 'right' se preferir alinhado à direita */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+
+/* ---------- 3. Seções de resumo e principal ---------- */
+
+/* Alinhamento da seção de resumo */
+#zen-summary {
+  text-align: center; /* Ou use 'right' se preferir */
+  padding: 1rem;
+}
+
+/* Espaçamento entre linhas da seção principal */
+#zen-supporting p {
+  line-height: 1.5;
+}
+
+
+/* ---------- 4. Abreviaturas ---------- */
+
+/* Aplica small-caps em todas as <abbr> */
+abbr {
+  font-variant: small-caps;
+  letter-spacing: 0.5px; /* opcional: para dar mais estilo */
+}
+
+
+/* ---------- Estilo extra opcional para deixar bonito ---------- */
+
+.page-wrapper {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #0057cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
